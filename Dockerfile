@@ -1,4 +1,5 @@
 FROM debian:latest
+MAINTAINER Rizwan
 
 # Install nginx and adjust nginx config to stay in foreground
 RUN apt-get update && apt-get install --no-install-recommends -y nginx; \
